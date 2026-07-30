@@ -89,16 +89,16 @@ El sitio está compuesto por **5 páginas** que cubren todos los aspectos clave 
 
 ---
 
-##📌 Estado del proyecto
+## 📌 Estado del proyecto
 - ✅ Parcial 1 entregado – Estructura completa con 5 páginas maquetadas.
 
-##📝 Nota final
+## 📝 Nota final
 Este repositorio contiene la versión inicial del proyecto correspondiente al Parcial 1 de la asignatura Práctica
 Profesional I. El diseño y la estructura fueron realizados siguiendo los lineamientos establecidos por la cátedra y
 utilizando Stick como herramienta de maquetación.
 
 
-##👨‍💻 Autor
+## 👨‍💻 Autor
 Matías Rodrigo
 GitHub • LinkedIn
 
