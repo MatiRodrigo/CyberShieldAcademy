@@ -1,0 +1,272 @@
+:root {
+    --cybershield-bg: #131315;
+    --cybershield-dark-blue: #0a192f;
+    --cybershield-green: #40e56c;
+    --cybershield-text: #e4e2e4;
+    --surface-container: #1f1f21;
+    --surface-container-high: #2a2a2c;
+    --surface-container-low: #1b1b1d;
+    --outline-variant: #44474d;
+    --cybershield-on-green: #003912;
+    --cybershield-text-dim: #c5c6cd;
+
+    
+    --font-primary: 'Inter', sans-serif;
+    --font-code: 'JetBrains Mono', monospace;
+}
+
+
+body {
+    font-family: var(--font-primary);
+}
+
+.font-code,
+.label-caps,
+.nav-link,
+.form-control-cyber,
+.form-select-cyber {
+    font-family: var(--font-code);
+}
+
+
+body {
+    background-color: var(--cybershield-bg);
+    color: var(--cybershield-text);
+    font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.font-code {
+    font-family: "JetBrains Mono", monospace;
+}
+
+.text-green {
+    color: var(--cybershield-green) !important;
+}
+
+.bg-green {
+    background-color: var(--cybershield-green) !important;
+    color: var(--cybershield-on-green) !important;
+}
+
+.border-outline {
+    border-color: var(--outline-variant) !important;
+}
+
+.scanline-overlay {
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(to bottom,
+            transparent 50%,
+            rgba(0, 200, 83, 0.02) 50%);
+    background-size: 100% 4px;
+    pointer-events: none;
+    z-index: 1050;
+    opacity: 0.3;
+}
+
+.tech-card {
+    background-color: var(--surface-container);
+    border: 1px solid var(--outline-variant);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.tech-card:hover {
+    box-shadow: 0 0 20px rgba(0, 200, 83, 0.15);
+    border-color: var(--cybershield-green) !important;
+}
+
+.navbar {
+    background-color: var(--cybershield-bg);
+    border-bottom: 1px solid var(--outline-variant);
+}
+
+.nav-link {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--cybershield-text-dim) !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--cybershield-green) !important;
+    border-bottom: 2px solid var(--cybershield-green);
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: 'liga';
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+}
+
+.btn-brand {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    padding: 0.6rem 1.5rem;
+    border-radius: 0.25rem;
+    transition: transform 0.15s ease;
+    border: none;
+}
+
+.btn-brand:hover {
+    transform: scale(0.98);
+    opacity: 0.9;
+    color: var(--cybershield-on-green);
+}
+
+.terminal-box {
+    background-color: #000;
+    border: 1px solid rgba(0, 200, 83, 0.3);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(10, 25, 47, 0.8), rgba(10, 25, 47, 0.8));
+    border-bottom: 1px solid var(--outline-variant);
+}
+
+.bg-surface-high {
+    background-color: var(--surface-container-high) !important;
+}
+
+.text-white-50 {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.tracking-widest {
+    letter-spacing: 0.2em;
+}
+/* =========================================================== */
+
+.btn-cybershield-outline {
+    border: 1px solid var(--cybershield-green);
+    color: var(--cybershield-green);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 2px;
+    transition: all 0.2s;
+}
+
+.btn-cybershield-outline:hover {
+    background: rgba(0, 200, 83, 0.1);
+    color: var(--cybershield-green);
+    border-color: var(--cybershield-green);
+}
+
+/* Sección de Servicios */
+/* 1: Hacking Ético */
+
+.ss-span-security {
+    font-variation-settings: "FILL" 1;
+}
+
+.dd-div {
+    background-color: rgba(0, 200, 83, 0.1);
+}
+
+.ss-span {
+    font-variation-settings: "FILL" 1;
+}
+
+.dd-div-2 {
+    background-color: #000;
+}
+
+.font-size-11 {
+    font-size: 11px;
+}
+
+.dd-div-bg {
+    background-color: rgba(52, 53, 54, 0.3);
+}
+
+/* Servicio 2: Seguridad en Redes */
+
+.ii-img-seguridad-redes {
+    filter: grayscale(100%) contrast(1.2);
+}
+
+/* Servicio 3: Análisis forense */
+
+.dd-div-forense {
+    background-color: #1b1b1d;
+}
+
+/* Seccíon CTA */
+
+.section-cta {
+    background-color: #0e0e10;
+}
+
+.dd-div-cta1 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.dd-div-cta2 {
+    width: 12px;
+    height: 12px;
+}
+
+/* footer */
+
+.footer {
+    background-color: #0e0e10;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.dd-div-footer {
+    font-size: 11px;
+    color: #888;
+}
+.font-size-10 {
+    font-size: 10px;
+}

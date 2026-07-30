@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fuentes/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fuentes/Inter-Italic-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('../assets/fuentes/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Material Symbols Outlined';
+    src: url('../assets/fuentes/material-symbols-outlined.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
