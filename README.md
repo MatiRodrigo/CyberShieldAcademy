@@ -100,7 +100,7 @@ utilizando Stick como herramienta de maquetación.
 
 ## 👨‍💻 Autor
 Matías Rodrigo
-[GitHub](https://github.com/MatiRodrigo) • [LinkedIn](www.linkedin.com/in/matias-rodrigo)
+[GitHub](https://github.com/MatiRodrigo) • [LinkedIn](https://www.linkedin.com/in/matias-rodrigo)
 
 
 ## 🌐 Ver el proyecto en vivo
