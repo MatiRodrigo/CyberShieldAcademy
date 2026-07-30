@@ -2,6 +2,8 @@
 
 > *Práctica Profesional I - Proyecto Integrador (Parcial 1)*
 
+![Etapa 1](https://img.shields.io/badge/Etapa%201-Completada-brightgreen?style=for-the-badge)
+![Próxima](https://img.shields.io/badge/Próxima-Etapa%202-informational?style=for-the-badge)
 ![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-brightgreen)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
