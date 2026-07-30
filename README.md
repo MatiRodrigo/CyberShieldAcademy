@@ -2,13 +2,13 @@
 
 > *Práctica Profesional I - Proyecto Integrador (Parcial 1)*
 
-![Etapa 1](https://img.shields.io/badge/Etapa%201-Completada-brightgreen?style=flat)
-![Próxima](https://img.shields.io/badge/Próxima-Etapa%202-informational?style=flat)
-![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-brightgreen?style=flat)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+![Etapa 1](https://img.shields.io/badge/Etapa%201-Completada-brightgreen?style=flat-square)
+![Próxima](https://img.shields.io/badge/Próxima-Etapa%202-informational?style=flat-square)
+![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-brightgreen?style=flat-square)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 
 ---
 
