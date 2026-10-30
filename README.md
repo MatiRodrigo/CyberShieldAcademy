@@ -54,12 +54,14 @@ El sitio está compuesto por **5 páginas principales** y módulos de renderizad
 El proyecto utiliza una arquitectura basada en **asincronismo (`fetch`) y manipulación del DOM**:
 
 
+```text
 ├── data/
 │   ├── cursos.json        # Almacena el catálogo de cursos (títulos, imágenes, niveles, etc.)
 │   └── instructores.json  # Datos del equipo de instructores (roles, imágenes, experiencia)
 └── js/
-├── main_index.js      # Consume cursos.json y renderiza las tarjetas dinámicas (.course-card)
-└── main_nosotros.js   # Consume instructores.json e inyecta la grilla de equipo en #lista-instructores
+    ├── main_index.js      # Consume cursos.json y renderiza las tarjetas dinámicas (.course-card)
+    └── main_nosotros.js   # Consume instructores.json e inyecta la grilla de equipo en #lista-instructores
+```
 
 ---
 
