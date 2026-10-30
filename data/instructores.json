@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "lvl": "LVL 99",
+        "imagen": "../assets/03_nosotros/instructor1.webp",
+        "subtitulo": "EX-NSA ANALYST",
+        "nombre": "Marcus Thorne",
+        "rol": "Director de Criptografia"
+    },
+    {
+        "id": 2,
+        "lvl": "LVL 95",
+        "imagen": "../assets/03_nosotros/instructor2.webp",
+        "subtitulo": "SECURITY RESEARCHER",
+        "nombre": "Dr. Elena Volkov",
+        "rol": "Especialista en Threat Hunting"
+    },
+    {
+        "id": 3,
+        "lvl": "LVL 97",
+        "imagen": "../assets/03_nosotros/instructor3.webp",
+        "subtitulo": "PENETRATION TESTER",
+        "nombre": "Julian Reed",
+        "rol": "Lead de Offensive Security"
+    },
+    {
+        "id": 4,
+        "lvl": "LVL 92",
+        "imagen": "../assets/03_nosotros/instructor4.webp",
+        "subtitulo": "CLOUD ARCHITECT",
+        "nombre": "Sarah Chen",
+        "rol": "Infraestructura Segura"
+    }
+]
