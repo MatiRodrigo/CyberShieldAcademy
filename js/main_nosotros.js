@@ -1,16 +1,27 @@
-fetch("./data/instructores.json")
-    .then((response) => response.json())
+fetch("../data/instructores.json")
+    .then((response) => {
+        if (!response.ok) {
+            throw new Error(`Error HTTP: ${response.status} al cargar instructores.json`);
+        }
+        return response.json();
+    })
     .then((instructores) => {
         const container = document.getElementById("lista-instructores");
+        if (!container) return;
 
         instructores.forEach((instructor) => {
             const tarjeta = document.createElement("div");
             tarjeta.className = "col-md-6 col-lg-3";
-            
+
+            // Soporta tanto rutas relativas a la raíz (./assets/) como a templates (../assets/)
+            const imagenSrc = instructor.imagen.startsWith("./assets/")
+                ? instructor.imagen.replace("./assets/", "../assets/")
+                : instructor.imagen;
+
             tarjeta.innerHTML = `
                 <div class="card card-custom h-100 p-0 position-relative">
                     <div class="lvl-badge z-3">${instructor.lvl}</div>
-                    <img src="${instructor.imagen}" class="card-img-top img-grayscale w-100 object-fit-cover img-instructor">
+                    <img src="${imagenSrc}" alt="${instructor.nombre}" class="card-img-top img-grayscale w-100 object-fit-cover img-instructor">
                     <div class="card-body p-3 border-top border">
                         <div class="font-mono text-accent mb-1 ls-wide text-uppercase font-size-10">${instructor.subtitulo}</div>
                         <h4 class="h6 mb-1 fw-bold">${instructor.nombre}</h4>
@@ -28,5 +39,4 @@ fetch("./data/instructores.json")
     })
     .catch((error) => {
         console.error("Error al cargar los instructores:", error);
-        console.log("Siempre buscando el pelo al huevo...");
     });

@@ -1,5 +1,10 @@
 fetch("./data/cursos.json")
-  .then((response) => response.json())
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(`Error HTTP: ${response.status} al cargar cursos.json`);
+    }
+    return response.json();
+  })
   .then((cursos) => {
     const container = document.getElementById("lista-cursos");
 
