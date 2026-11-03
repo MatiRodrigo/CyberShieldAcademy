@@ -1,6 +1,6 @@
 [
     {
-        "imagen" : "../assets/01_index/cursos1.webp",
+        "imagen" : "./assets/01_index/cursos1.webp",
         "titulo" : "Hacking Ético Experto",
         "descripcion" : "Aprende a pensar como un atacante para proteger las infraestructuras más críticas del mundo.",
         "nivel" : "Advanced"
