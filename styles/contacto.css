@@ -1,0 +1,322 @@
+/* ============================================================
+   contacto.css — variables unificadas con style.css
+   ============================================================*/
+:root {
+    --cybershield-bg: #131315;
+    --cybershield-dark-blue: #0a192f;
+    --cybershield-green: #00c853;
+    --cybershield-text: #e4e2e4;
+    --surface-container: #1f1f21;
+    --surface-container-high: #2a2a2c;
+    --surface-container-low: #1b1b1d;
+    --outline-variant: #44474d;
+    --on-secondary: #003912;
+
+    
+    --font-primary: 'Inter', sans-serif;
+    --font-code: 'JetBrains Mono', monospace;
+}
+
+body {
+    font-family: var(--font-primary);
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: 'liga';
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+}
+.font-code,
+.label-caps,
+.nav-link,
+.form-control-cyber,
+.form-select-cyber {
+    font-family: var(--font-code);
+}
+
+body {
+    font-family: var(--font-primary);
+}
+
+.font-code,
+.label-caps,
+.nav-link,
+.form-control-cyber,
+.form-select-cyber {
+    font-family: var(--font-code);
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--cybershield-bg);
+    color: var(--cybershield-text);
+    overflow-x: hidden;
+}
+
+.font-code {
+    font-family: "JetBrains Mono", monospace;
+}
+
+.label-caps {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Custom Cyberpunk Effects */
+.neon-border-focus {
+    transition: all 0.2s ease-in-out;
+    border: 1px solid var(--outline-variant);
+    background-color: var(--surface-container-low);
+}
+
+.neon-border-focus:focus-within {
+    box-shadow: 0 0 10px 2px rgba(0, 200, 83, 0.3);
+    border-color: var(--cybershield-green) !important;
+}
+
+.scanline-bg {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+        linear-gradient(90deg,
+            rgba(255, 0, 0, 0.06),
+            rgba(0, 255, 0, 0.02),
+            rgba(0, 0, 255, 0.06));
+    background-size:
+        100% 2px,
+        3px 100%;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.2;
+}
+
+.glow-accent {
+    color: var(--cybershield-green);
+    filter: drop-shadow(0 0 8px var(--cybershield-green));
+}
+
+.btn-cyber-secondary {
+    background-color: var(--cybershield-green);
+    color: var(--on-secondary);
+    border: none;
+    border-radius: 0.125rem;
+    font-weight: 700;
+    transition: all 0.15s ease-in-out;
+}
+
+.btn-cyber-secondary:hover {
+    filter: brightness(1.1);
+    color: var(--on-secondary);
+}
+
+.btn-cyber-secondary:active {
+    transform: scale(0.95);
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--cybershield-bg);
+    border-bottom: 1px solid var(--outline-variant);
+    transition: all 0.3s ease;
+}
+
+.navbar-scrolled {
+    background-color: rgba(19, 19, 21, 0.95) !important;
+    /* backdrop-filter: blur(8px); */
+}
+
+.nav-link {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #c5c6cd !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--cybershield-green) !important;
+    border-bottom: 2px solid var(--cybershield-green);
+}
+
+.btn-cybershield-outline {
+    border: 1px solid var(--cybershield-green);
+    color: var(--cybershield-green);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 2px;
+    transition: all 0.2s;
+}
+
+.btn-cybershield-outline:hover {
+    background: rgba(0, 200, 83, 0.1);
+    color: var(--cybershield-green);
+    border-color: var(--cybershield-green);
+}
+
+/* Terminal Form Styling */
+.terminal-container {
+    background-color: var(--surface-container);
+    border: 1px solid var(--outline-variant);
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.terminal-accent {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgba(0, 200, 83, 0.05);
+    transform: rotate(-45deg) translate(2rem, -2rem);
+}
+
+.form-control-cyber {
+    background-color: var(--surface-container);
+    border: none;
+    color: var(--cybershield-text);
+    font-family: "JetBrains Mono", monospace;
+    padding: 1rem;
+}
+
+.form-control-cyber:focus {
+    background-color: var(--surface-container);
+    box-shadow: none;
+    color: var(--cybershield-text);
+}
+
+.form-select-cyber {
+    background-color: var(--surface-container);
+    border: none;
+    color: var(--cybershield-text);
+    font-family: "JetBrains Mono", monospace;
+    padding: 1rem;
+}
+
+
+
+.form-select-cyber option {
+    background-color: var(--surface-container);
+    color: var(--cybershield-text);
+}
+
+.form-select-cyber:focus {
+    box-shadow: none;
+}
+
+/* Sidebar Info Cards */
+.info-card {
+    background-color: var(--surface-container-high);
+    border: 1px solid var(--outline-variant);
+    padding: 1.5rem;
+    transition: border-color 0.2s;
+}
+
+.info-card:hover {
+    border-color: var(--cybershield-green);
+}
+
+.social-link {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--outline-variant);
+    color: var(--cybershield-text);
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.social-link:hover {
+    border-color: var(--cybershield-green);
+    color: var(--cybershield-green);
+}
+
+.social-link svg {
+    width: 20px;
+    height: 20px;
+}
+
+footer {
+    background-color: #0e0e10;
+    border-top: 1px solid var(--outline-variant);
+}
+
+.footer-link {
+    color: #c5c6cd;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-link:hover {
+    color: var(--cybershield-green);
+}
+
+@keyframes pulse {
+    0%   { opacity: 0.4; }
+    50%  { opacity: 1;   }
+    100% { opacity: 0.4; }
+}
+
+/* ================================================================= */
+
+/* Seccion Hero */
+
+.max-width-700 {
+    max-width: 700px;
+}
+
+/* Columna Izquierda: Terminal de Consulta */
+
+.font-variation {
+    font-variation-settings: 'FILL' 1;
+}
+
+/* Columna Derecha */
+/* Tarjetas de contacto */
+
+.background-c {
+    background-color: rgba(0, 200, 83, 0.1);
+}
+
+/* Mapa */
+
+.aspect {
+    aspect-ratio: 16/9;
+}
+
+.filter {
+    filter: grayscale(1) opacity(0.6);
+}
+
+/* Redes de Inteligencia */
+
+.background-surface {
+    background-color: var(--surface-container-high);
+}
+

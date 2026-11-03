@@ -1,0 +1,21 @@
+[
+    {
+        "imagen" : "../assets/01_index/cursos1.webp",
+        "titulo" : "Hacking Ético Experto",
+        "descripcion" : "Aprende a pensar como un atacante para proteger las infraestructuras más críticas del mundo.",
+        "nivel" : "Advanced"
+    },
+    {
+        "imagen" : "../assets/01_index/cursos2.webp",
+        "titulo" : "Seguridad en Redes",
+        "descripcion" : "Aprende a pensar como un atacante para proteger las infraestructuras más críticas del mundo.",
+        "nivel" : "Intermediate"
+    },
+    {
+        "imagen" : "../assets/01_index/cursos3.webp",
+        "titulo" : "Análisis Forence Digital",
+        "descripcion" : "Aprende a pensar como un atacante para proteger las infraestructuras más críticas del mundo.",
+        "nivel" : "Specialist"
+    }
+
+]
